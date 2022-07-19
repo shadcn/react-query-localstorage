@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useQueryClient } from "react-query"
-import { colors } from "./data/colors"
-import { Favorites } from "./favorites"
+import { colors } from "../data/colors"
+import { Favorites } from "../components/favorites"
 
 export default function IndexPage() {
   const client = useQueryClient()
